@@ -1,0 +1,104 @@
+body {
+  background-color: gray;
+  color: #7b7b7b;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: arial;
+}
+.navbar{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+.navbar-inserve{
+  background-color: #f2f2f2;
+}
+.navbar-brand {
+  color: #7b7b7b;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+a:hover, a:focus{
+  color: red;
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  min-height: 600px;
+  background: url(../images/background-header.jpg) no-repeat center top;
+  background-attachment: relative;
+  background-position: center center;
+  background-size: contain;
+  background-size: 100% 100%;
+  margin-top: -20px;
+  text-align: center;
+  padding-top: 50px;
+}
+.header .row{
+  margin-top: 180px;
+  color: white;
+}
+.header .row  div{
+  height: 300px;
+}
+.service{
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.service i{
+  font-size: 80px;
+}
+.our_jobs{
+  width: 100%;
+  background: #e0e0e0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.our_jobs img{
+  border-radius: 50px;
+  -o-transition: transform 1s ease;
+	-ms-transition: transform 1s ease;
+	-moz-transition: transform 1s ease;
+	-webkit-transition: transform 1s ease;
+	transition: transform 1s ease;
+}
+.our_jobs img:hover{
+  -o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+.text{
+  background: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.text img{
+  margin: auto;
+}
+.footer{
+  background: #e0e0e0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.footer a{
+  font-size: 30px;
+  padding: 20px;
+  color: #7b7b7b;
+}
+.footer a:hover{
+  color: red;
+}
+@media (max-width: 768px){
+.our_jobs img{
+  margin-top: 30px;
+}
+}
